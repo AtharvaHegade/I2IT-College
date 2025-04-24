@@ -3,59 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Podcast Page</title>
 </head>
 <body>
-
-      <svg height="130" width="500">
-        <defs>
-          <linearGradient id="grad1">
-            <stop offset="0%" stop-color="yellow" />
-            <stop offset="100%" stop-color="red" />
-          </linearGradient>
-        </defs>
-        <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
-        <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
-        Sorry, your browser does not support inline SVG.
-      </svg>
-
-    <!-- <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
-        Your browser does not support the HTML canvas tag.</canvas>
+   
+    <section>
+        <header>
+        <div class="logo">
+            <a href="#"><img src="/I2IT.png" alt=""></a>
+        </div>
+        <div class="mid">
+            <h4>Hope Foundation's</h4>
+            <h1>International Instiute of Information Techonology(I2IT)</h1>
+        </div>
         
-        <script>
-            var c = document.getElementById("myCanvas");
-            var ctx = c.getContext("2d");
-            
-            // Create gradient
-            var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
-            grd.addColorStop(0, "red");
-            grd.addColorStop(1, "white");
-            
-            // Fill with gradient
-            ctx.fillStyle = grd;
-            ctx.fillRect(10, 10, 150, 80);
-            </script> -->
+        <div class="nav_bar">
+                
+        <ul>
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <li> <a href="#">About</a></li>
+            <li> <a href="#">Blog</a></li>
+            <li> <a href="podcast.html">Podcast</a></li>
+            <li> <a href="#">Contact</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+       <!-- Mahesh is good boy -->
+    </header>
+
+    </section>
+    <main>
+
+        <div class="text_area">
+            <h1>Pune's Best Tech College</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati non quisquam sequi quasi, unde enim perspiciatis error </p>
+            <a href="https://www.isquareit.edu.in/" class="visit_more_btn" target="_blank">Visit For More</a>
+        </div>
+
+    </main>
+
+    
+    <div class="course">
+
+        <h1>Course We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    </div>
 
 
+   
 
 
-
-    <!-- <h1>Form</h1>
-    <form action="#" name="LogIn Page">
-        <label for="">Enter Username:</label>
-        <input type="text" placeholder="Username" ><br><br>
-        <label for="">Enter Password:</label>
-        <input type="password" placeholder="Password"> <br> <br>
-        <input type="number" name="" id="" placeholder="Number"> <br>
-        <label for="">Checkbox</label> <br>
-        <input type="checkbox"> Pune <br>
-        <input type="checkbox"> Mumbai <br>
-        <label for="">Color : <input type="color"></label> <br>
-        <label for="range">Range : <input type="range"></label> <br>
-        <label for="Radio"> <input type="radio" name="" id=""><br><input type="radio" name="" id=""><br><input type="radio" name="" id=""><br><input type="radio" name="" id=""> </label> <br>
-        <label for="">DateTime : <input type="datetime-local" name="" id=""></label> <br> <br> <br>
-        <label for=""> <input type="submit" value="Sign Up"></label>
-
-    </form> -->
-</body>
+</body> 
 </html>
