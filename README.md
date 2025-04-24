@@ -13,5 +13,28 @@ This project is a **static website** built for **I2IT College**, showcasing basi
 
 ---
 
-## 📁 Project Structure
+
+### 🗂️ File Descriptions
+
+- **index.html**  
+  The landing page that introduces the I2IT College website. It typically includes the logo, a welcome message, and navigation links to other sections like podcasts or contact pages.
+
+- **podcast.html**  
+  A separate page that may showcase student podcasts, interviews, or featured media. Acts as a secondary page demonstrating internal linking and multi-page navigation.
+
+- **home.css**  
+  Contains all the styling for both HTML pages. It includes rules for layout, colors, fonts, spacing, and responsive behavior.
+
+- **I2IT.png**  
+  A visual representation of the institution. Used in the header or body of the page to give the site a branded look.
+
+### 💡 Suggested Future Enhancements
+
+To make the project more scalable and professional, you might consider the following structure in later versions:
+
+
+This kind of organization:
+- Keeps files modular and clean
+- Makes maintenance easier
+- Aligns with real-world web development practices
 
